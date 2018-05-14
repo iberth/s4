@@ -7,6 +7,12 @@ This is a REST API to manage Students and Classes. The project has been implemen
 * Spring Data JPA.
 * H2 Database Engine. (In memory database)
 
+I have chosen those technologies because they already provide you the whole infrastructure to implement a Standard CRUD restful API. Here are some pros that would be good to mention for each of them:
+* Spring Boot: Follows the microservice architecture. Could be easily deployed in several platforms including Docker and be scaled as needed.
+* Spring Data REST: Provides you already the REST API CRUD functionality implemented for any entity you want to expose. Good to mention that it has integrated HATEOAS for the API navigation.
+* Spring Data JPA: To take advantage of JPA boundaries for the data access layer.
+* H2 Database Engine: I’ve chosen this just for the exercise storing needs since is just an in memory database.
+
 ## Prerequisites
 
 Is needed to have installed:
